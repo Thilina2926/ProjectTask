@@ -1,6 +1,5 @@
 // Home.jsx
 import 'react';
-import NavBar from 'src/pages/Layouts/NavBar'; // Import NavBar
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
@@ -34,7 +33,7 @@ function Home() {
   return (
     <div style={containerStyle}>
       {/* Navigation Bar */}
-      <NavBar />
+ 
 
       {/* Welcome Section */}
       <section id="welcome">

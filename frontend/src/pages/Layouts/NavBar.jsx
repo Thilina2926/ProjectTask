@@ -8,6 +8,7 @@ const NavBar = () => {
     backgroundColor: 'white',
     color: 'black',
     boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+    marginTop:"0px"
   };
 
   // Styling for the navbar links
@@ -16,14 +17,15 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg" style={navbarStyle}>
+    <nav className="navbar navbar-expand-lg p-0" style={navbarStyle}>
       <div className="container-fluid">
         {/* Logo and Branding */}
-        <a className="navbar-brand" href="#" style={{ color: 'black' }}>
+        <a className="navbar-brand p-0" href="#" style={{ color: 'black' }}>
           <img
+         
             src="/iconn.png" // Ensure iconn.png is in the public folder
             alt="Page Icon"
-            style={{ width: '80px', height: 'auto', marginRight: '10px' }}
+            style={{ width: '100px', height: 'auto', marginRight: '10px' }}
           />
           Diploma in IT
         </a>
